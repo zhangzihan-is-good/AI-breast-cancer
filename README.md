@@ -29,4 +29,10 @@ This study utilized the following two datasets:
 - `train_classifier.py`, `train_vit.py`: Trains various types of image classifiers.
 - `utilss.py`: Contains general utility functions for the project.
 - `requirement.txt`: The required python packages.
+## Installation
+/```
+/pip install -r requirements.txt
+/```
+## Usage
+
 ## Citing & Authors
