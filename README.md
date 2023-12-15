@@ -30,9 +30,9 @@ This study utilized the following two datasets:
 - `utilss.py`: Contains general utility functions for the project.
 - `requirement.txt`: The required python packages.
 ## Installation
-/```
-/pip install -r requirements.txt
-/```
+```
+pip install -r requirements.txt
+```
 ## Usage
 
 ## Citing & Authors
