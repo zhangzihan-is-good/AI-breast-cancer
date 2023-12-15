@@ -36,7 +36,7 @@ This study utilized the following two datasets:
 pip install -r requirements.txt
 ```
 ## Usage
-Specific parameters can be adjusted in config.yaml, The main experimental results can be reproduced through the following steps.
+Specific parameters can be adjusted in config.yaml. The main experimental results can be reproduced through the following steps.  
 Train the AutoEncoder
 ```
 python train_ae.py
