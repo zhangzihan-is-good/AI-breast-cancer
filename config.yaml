@@ -1,0 +1,6 @@
+num_epochs : 20 # Number of pre-training epochs
+pretrain_lr : 0.001 # Pre-training learning rate
+model_name : "VIT" # Model to use for training classifier, options are {all, nop, VGG, ResNet50, GoogleNet, AlexNet, VIT}
+test_model : "all" # Model to use for testing classifier
+classify_lr : 0.001 # Learning rate for training classifier
+class_num_epochs : 50 # Number of epochs for training classifier
