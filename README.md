@@ -16,4 +16,17 @@ This study utilized the following two datasets:
   This database includes 176 mammographic images and 84 corresponding patient complaints from 84 female breast disease patients.The data can be obtained from this [link](https://medbooks.ipmph.com/yx/imageLibrary/2578.html)
 
 ## Code Description
+- `cal_mean_std.py`: Calculates the mean and variance of mammography image datasets.
+- `cal_para_quan.py`: Calculates the parameter quantity of models.
+- `config.yaml`: A configuration file for setting up the project environment.
+- `image_only.py`, `xgboost_muti.py`, `xgboost_text.py`: Decision-makers for text-only, image-only, and combined text and image analysis.
+- `load_data.py`: Loads datasets for processing.
+- `losses.py`: Computes loss functions for model training.
+- `model.py`: Builds various types of models for image processing and analysis.
+- `reconstruct.py`: Tests the reconstruction effects of image autoencoder models.
+- `test_classifier.py`, `test_vit.py`: Tests various types of image classifiers.
+- `train_ae.py`: Trains autoencoder models.
+- `train_classifier.py`, `train_vit.py`: Trains various types of image classifiers.
+- `utilss.py`: Contains general utility functions for the project.
+- `requirement.txt`: The required python packages.
 ## Citing & Authors
