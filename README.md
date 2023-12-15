@@ -7,6 +7,8 @@ This repo is the implementation for "**Automated Breast Cancer Detection Mimicki
 - [Abstract](#abstract)
 - [Dataset](#dataset)
 - [Code Description](#code-description)
+- [Installation](#installation)
+- [Usage](#usage)
 - [Citing & Authors](#citing--authors)
 ## Dataset
 This study utilized the following two datasets:
