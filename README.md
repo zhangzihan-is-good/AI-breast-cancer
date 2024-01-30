@@ -1,7 +1,11 @@
 # AI-breast-cancer 
-This repo is the implementation for "**Automated Breast Cancer Detection Mimicking Human Diagnostic Process**"
+This repo is the implementation for "**MutiBCD: A Multimodal model that simulates the human diagnostic process for automated Breast Cancer Detection**"
 ## Abstract
+In response to the complexities of breast cancer detection, our study introduces MutiBCD, a multimodal model that mimics the human diagnostic process for automated breast cancer detection. Integrating an image classifier with GPT-4, it evaluates mammographic images alongside patient complaints. The model’s dual-head autoencoder efficiently processes image data, eliminating the need for manual lesion delineation, while GPT-4 extracts critical information from patient narratives.
 
+MutiBCD demonstrates superior diagnostic accuracy and efficiency, achieving an F1 score of 86.49% and a recall rate of 94.12%, which marks an improvement over traditional methods. Furthermore, its design, emphasizing interpretability, aligns with the intuitive experience of medical consultations. The encouraging results of MutiBCD in breast cancer detection indicate its potential for application in similar diagnostic contexts.
+
+The MutiBCD model is characterized by its compact structure, flexible and efficient coupling, and the open-sourcing of its code [https://github.com/zhangzihan-is-good/AI-breast-cancer](https://github.com/zhangzihan-is-good/AI-breast-cancer), thereby enhancing the model's practical utility.
 
 ## Directory
 - [Abstract](#abstract)
@@ -53,3 +57,8 @@ python xgboost_muti.py
 ```
 ## Citing & Authors
 
+If you find this repository helpful, feel free to cite our publication -
+
+MutiBCD: A Multimodal model that simulates the human diagnostic process for automated Breast Cancer Detection
+
+Contact:[ZihanZhang](zihanzhang@ir.hit.edu.cn), [JuntongDu](13936610448@163.com)
