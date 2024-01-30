@@ -58,5 +58,7 @@ python xgboost_muti.py
 ## Citing & Authors
 
 If you find this repository helpful, feel free to cite our publication -
+
 MutiBCD: A Multimodal model that simulates the human diagnostic process for automated Breast Cancer Detection
-Contact: [ZihanZhang](zihanzhang@ir.hit.edu.cn), [JuntongDu](13936610448@163.com)
+
+Contact: [ZihanZhang](mailto:zihanzhang@ir.hit.edu.cn), [JuntongDu](mailto:13936610448@163.com)
