@@ -57,8 +57,8 @@ Train the XGboost
 python xgboost_muti.py
 ```
 
-## Supplementary Information:
-Due to copyright considerations, baseline methods with non-open-source code and CBCID are not included in this repository.
+## Supplementary Information
+Due to copyright considerations, baseline methods with non-open-source code and Chinese Breast Disease Clinical Imaging Database (CBCID) are not included in this repository.
 
 ## Citing & Authors
 
