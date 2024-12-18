@@ -1,11 +1,9 @@
 # AI-breast-cancer 
 This repo is the implementation for "**MutiBCD: A Multimodal model that simulates the human diagnostic process for automated Breast Cancer Detection**"
 ## Abstract
-In response to the complexities of breast cancer detection, our study introduces MutiBCD, a multimodal model that mimics the human diagnostic process for automated breast cancer detection. Integrating an image classifier with GPT-4, it evaluates mammographic images alongside patient complaints. The model’s dual-head autoencoder efficiently processes image data, eliminating the need for manual lesion delineation, while GPT-4 extracts critical information from patient narratives.
+To enhance the accuracy of BC detection, our study introduces MultiBCD, a multimodal model that emulates the human diagnostic process for BC detection. Integrating an image classifier with GPT-4, it evaluates mammographic images alongside patient complaints. The model’s dual-head autoencoder efficiently processes image data, eliminating the need for manual lesion delineation, while GPT-4 extracts critical information from patient narratives.
 
-MutiBCD demonstrates superior diagnostic accuracy and efficiency, achieving an F1 score of 86.49% and a recall rate of 94.12%, which marks an improvement over traditional methods. Furthermore, its design, emphasizing interpretability, aligns with the intuitive experience of medical consultations. The encouraging results of MutiBCD in breast cancer detection indicate its potential for application in similar diagnostic contexts.
-
-The MutiBCD model is characterized by its compact structure, flexible and efficient coupling, and the open-sourcing of its code [https://github.com/zhangzihan-is-good/AI-breast-cancer](https://github.com/zhangzihan-is-good/AI-breast-cancer), thereby enhancing the model's practical utility.
+MultiBCD demonstrates superior diagnostic accuracy and efficiency, achieving an F1 score of 80.15\% and a recall rate of 90.68\%, which marks an improvement over traditional methods. Furthermore, its design, emphasizing interpretability, aligns with the intuitive experience of medical consultations. The encouraging results of MultiBCD in BC detection indicate its potential for application in similar diagnostic contexts.
 
 ## Directory
 - [Abstract](#abstract)
@@ -20,8 +18,11 @@ This study utilized the following two datasets:
 - **The Chinese Mammography Database (CMMD):**  
   This database was conducted on 1,775 patients from China with benign or malignant breast disease who underwent mammography examination between July 2012 and January 2016. The database consists of 3,728 mammographies from these 1,775 patients, with biopsy-confirmed types of benign or malignant tumors. For 749 of these patients (1,498 mammographies), the database also includes patients' molecular subtypes. Image data were acquired on a GE Senographe DS mammography system. The data can be obtained from this [link](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70230508)
 
-- **Chinese Breast Disease Clinical Imaging Database:**  
+- **Chinese Breast Disease Clinical Imaging Database(CBCID):**  
   This database includes 176 mammographic images and 84 corresponding patient complaints from 84 female breast disease patients.The data can be obtained from this [link](https://medbooks.ipmph.com/yx/imageLibrary/2578.html)
+
+- **Mammography-Complaints Breast Database (MCBD):**
+We present a multimodal dataset comprising 181 cases with mammographic images, complaints, and pathology results. To our knowledge, aside from the CBCID, no other dataset of this type is currently available. In support of advancing research in this area, we collected 181 samples from patients at The First Affiliated Hospital of Harbin Medical University, including both mammographic images and patient-reported complaints, along with corresponding pathology outcomes (117 benign, 64 malignant). 
 
 ## Code Description
 - `cal_mean_std.py`: Calculate the mean and variance of mammography image datasets.
@@ -55,7 +56,13 @@ Train the XGboost
 ```
 python xgboost_muti.py
 ```
+
+## Supplementary Information:
+Due to copyright considerations, baseline methods with non-open-source code and CBCID are not included in this repository.
+
 ## Citing & Authors
+
+This study has been accepted by _Biomedical Signal Processing and Control_ and is currently awaiting publication.
 
 If you find this repository helpful, feel free to cite our publication -
 
