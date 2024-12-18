@@ -67,5 +67,3 @@ This study has been accepted by _Biomedical Signal Processing and Control_ and i
 If you find this repository helpful, feel free to cite our publication -
 
 MutiBCD: A Multimodal model that simulates the human diagnostic process for automated Breast Cancer Detection
-
-Contact: [ZihanZhang](mailto:zihanzhang@ir.hit.edu.cn), [JuntongDu](mailto:13936610448@163.com)
