@@ -62,8 +62,18 @@ Due to copyright considerations, baseline methods with non-open-source code and 
 
 ## Citing & Authors
 
-This study has been accepted by _Biomedical Signal Processing and Control_ and is currently awaiting publication.
-
-If you find this repository helpful, feel free to cite our publication -
-
-MutiBCD: A Multimodal model that simulates the human diagnostic process for automated Breast Cancer Detection
+```bibtex
+@article{DU2025107410,
+title = {MultiBCD: A multimodal model that simulates the human diagnostic process for automated breast cancer detection},
+journal = {Biomedical Signal Processing and Control},
+volume = {104},
+pages = {107410},
+year = {2025},
+issn = {1746-8094},
+doi = {https://doi.org/10.1016/j.bspc.2024.107410},
+url = {https://www.sciencedirect.com/science/article/pii/S174680942401468X},
+author = {Juntong Du and Zihan Zhang and Weiyang Tao},
+keywords = {Artificial intelligence, Multimodality, Breast cancer, Mammogram, CNN, GPT-4},
+abstract = {To enhance the accuracy of BC detection, our study introduces MultiBCD, a multimodal model that emulates the human diagnostic process for BC detection. Integrating an image classifier with GPT-4, it evaluates mammographic images alongside patient complaints. The model’s dual-head autoencoder efficiently processes image data, eliminating the need for manual lesion delineation, while GPT-4 extracts critical information from patient narratives. MultiBCD demonstrates superior diagnostic accuracy and efficiency, achieving an F1 score of 80.15% and a recall rate of 90.68%, which marks an improvement over traditional methods. Furthermore, its design, emphasizing interpretability, aligns with the intuitive experience of medical consultations. The encouraging results of MultiBCD in BC detection indicate its potential for application in similar diagnostic contexts. The MultiBCD model is characterized by its compact structure, flexible and efficient coupling, and the open-sourcing of its code(https://github.com/zhangzihan-is-good/AI-breast-cancer), thereby enhancing the model’s practical utility.}
+}
+```
